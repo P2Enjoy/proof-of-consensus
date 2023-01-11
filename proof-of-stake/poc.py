@@ -14,10 +14,12 @@ pour une utilisation dans le monde réel, car il n'ajoute aucune mesure de sécu
 Vous devriez envisager des alternatives plus sûres pour implémenter l'algorithme PoS dans vos projets.
 """
 
+
 class Node:
     def __init__(self, stake, id):
         self.stake = stake
         self.id = id
+
 
 class PoS:
     def __init__(self, nodes):
@@ -31,6 +33,7 @@ class PoS:
                 validator_pool.append(node)
         # Select a random node from the validator pool
         return random.choice(validator_pool)
+
 
 # Example usage:
 nodes = [Node(3, "A"), Node(2, "B"), Node(5, "C")]

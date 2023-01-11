@@ -1,4 +1,5 @@
 import hashlib
+import time
 
 """
 Dans cet exemple, je crée une classe PoW qui possède une méthode mine qui prend en entrée une certaine donnée et extrait un nonce (un nombre aléatoire) qui satisfait la condition PoW en hachant répétitivement la donnée concaténée avec le nonce.
@@ -12,6 +13,8 @@ la méthode mine avec une chaîne "données d'exemple" et il imprimera le numér
 Veuillez noter que ceci est un algorithme PoW simple pour démontrer son fonctionnement et qu'il n'est pas sécurisé pour une utilisation en production,
 car il ne prend pas en compte des mesures de sécurité ou protection supplémentaires.
 """
+
+
 class PoW:
     def __init__(self, difficulty):
         self.difficulty = difficulty
@@ -30,8 +33,6 @@ class PoW:
 
 
 # Example usage:
-import time
-
 data = "données d'exemple"
 for i in range(7):
     pow = PoW(i)

@@ -7,7 +7,7 @@ La preuve de travail est l'algorithme de consensus le plus largement utilisé, n
 ## [Preuve d'enjeu (PoS)](proof-of-stake)
 La preuve d'enjeu est un algorithme de consensus dans lequel les nœuds valident les transactions et créent de nouveaux blocs en fonction de leur enjeu (ou "stake") dans le réseau. Plus un nœud a d'enjeu, plus il a de chances de devenir le prochain validateur. Cette méthode consomme moins d'énergie que la preuve de travail, mais elle peut être sujette à des problèmes de centralisation si un petit groupe de nœuds possède la majorité de l'enjeu dans le réseau.
 
-## Preuve déléguée d'enjeu (DPoS)
+## [Preuve déléguée d'enjeu (DPoS)](delegated-proof-of-stake)
 Ceci est une variation de PoS dans laquelle un groupe de validateurs élus sont responsables de la création de nouveaux blocs et de la maintenance du réseau. Les validateurs sont élus par les détenteurs du jeton natif du réseau et les validateurs ayant le plus de votes sont choisis pour valider les transactions et créer de nouveaux blocs.
 
 ## Tolérance aux fautes byzantines (BFT)
