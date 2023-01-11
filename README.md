@@ -4,7 +4,7 @@ Il existe plusieurs  algorithmes de consensus utilisés dans les systèmes distr
 ## [Preuve de travail (PoW)](proof-of-work)
 La preuve de travail est l'algorithme de consensus le plus largement utilisé, notamment dans la blockchain Bitcoin. Dans un système de preuve de travail, les nœuds (appelés mineurs) résolvent des calculs mathématiques complexes pour valider les transactions et créer de nouveaux blocs. Celui qui résout le calcul en premier est récompensé avec une récompense en jetons et devient le prochain validateur du réseau. Cependant, cette méthode consomme beaucoup d'énergie et peut être coûteuse.
 
-## Preuve d'enjeu (PoS)
+## [Preuve d'enjeu (PoS)](proof-of-stake)
 La preuve d'enjeu est un algorithme de consensus dans lequel les nœuds valident les transactions et créent de nouveaux blocs en fonction de leur enjeu (ou "stake") dans le réseau. Plus un nœud a d'enjeu, plus il a de chances de devenir le prochain validateur. Cette méthode consomme moins d'énergie que la preuve de travail, mais elle peut être sujette à des problèmes de centralisation si un petit groupe de nœuds possède la majorité de l'enjeu dans le réseau.
 
 ## Preuve déléguée d'enjeu (DPoS)
