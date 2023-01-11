@@ -1,22 +1,16 @@
 import hashlib
 
 """
-In this example, I create a PoW class which has a mine method that takes in some
-data and mines a nonce (a random number) that satisfies the PoW condition by 
-repeatedly hashing the data concatenated with the nonce. 
-The difficulty of mining is defined by the difficulty parameter, which determines
-how many leading zeroes the hash must have. 
+Dans cet exemple, je crée une classe PoW qui possède une méthode mine qui prend en entrée une certaine donnée et extrait un nonce (un nombre aléatoire) qui satisfait la condition PoW en hachant répétitivement la donnée concaténée avec le nonce.
+La difficulté d'extraction est définie par le paramètre de difficulté, qui détermine combien de zéros initiaux le hachage doit avoir.
 
-In this example, I change the difficulty progressivlely to 6, so the hash must have up to 6 leading zeroes. 
-The method mine uses sha256 as the hashing function, but other algorithms could be used as well.
-In the last lines of the script, I created an instance of PoW with difficulty changing from none to 6 and then I call 
-the mine method with a string "example data" and it will print the number (nonce) which meets the difficulty along 
-with the time required for the operation.
+Dans cet exemple, je modifie progressivement la difficulté à 6, de sorte que le hachage doit avoir jusqu'à 6 zéros initiaux.
+La méthode mine utilise sha256 comme fonction de hachage, mais d'autres algorithmes pourraient également être utilisés.
+Dans les dernières lignes du script, j'ai créé une instance de PoW avec une difficulté changeant de nulle à 6 et ensuite j'appelle
+la méthode mine avec une chaîne "données d'exemple" et il imprimera le numéro (nonce) qui satisfait la difficulté avec le temps requis pour l'opération.
 
-Please note that this is a simple PoW algorithm to demonstrate how it works, and it's not secure for real-world usage, 
-as it does not add any extra security measures or protection. 
-Also, it does not consider the timeliness and performance for real-world usage you should consider more secure 
-alternatives for implementing PoW algorithm in your projects
+Veuillez noter que ceci est un algorithme PoW simple pour démontrer son fonctionnement et qu'il n'est pas sécurisé pour une utilisation en production,
+car il ne prend pas en compte des mesures de sécurité ou protection supplémentaires.
 """
 class PoW:
     def __init__(self, difficulty):
@@ -38,7 +32,7 @@ class PoW:
 # Example usage:
 import time
 
-data = "example data"
+data = "données d'exemple"
 for i in range(7):
     pow = PoW(i)
 
