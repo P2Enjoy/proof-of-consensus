@@ -10,7 +10,7 @@ La preuve d'enjeu est un algorithme de consensus dans lequel les nœuds valident
 ## [Preuve déléguée d'enjeu (DPoS)](delegated-proof-of-stake)
 Ceci est une variation de PoS dans laquelle un groupe de validateurs élus sont responsables de la création de nouveaux blocs et de la maintenance du réseau. Les validateurs sont élus par les détenteurs du jeton natif du réseau et les validateurs ayant le plus de votes sont choisis pour valider les transactions et créer de nouveaux blocs.
 
-## Tolérance aux fautes byzantines (BFT)
+## [Tolérance aux fautes byzantines (BFT)](bft)
 Ceci est un algorithme de consensus conçu pour être résistant au "problème des généraux byzantins", dans lequel certains membres du réseau peuvent agir de manière malveillante. Dans les systèmes basés sur BFT, chaque nœud doit atteindre un consensus avec un certain nombre d'autres nœuds avant de pouvoir ajouter un bloc à la chaîne.
 
 ## Tolérance aux fautes byzantines pratique (PBFT)
