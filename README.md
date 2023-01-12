@@ -16,7 +16,7 @@ Ceci est un algorithme de consensus conçu pour être résistant au "problème d
 ## [Tolérance aux fautes byzantines pratique (PBFT)](pbft)
 Ceci est une extension de BFT conçue pour être plus efficace que BFT et peut être utilisée dans des systèmes à grande échelle.
 
-## Accord fédéré byzantin (FBA)
+## [Accord fédéré byzantin (FBA)](fbft)
 Ceci est un algorithme de consensus utilisé dans le réseau Stellar, dans lequel les validateurs sont organisés en "quorums" qui atteignent un consensus à travers un processus de vote.
 
 ## Preuve d'autorité (PoA)
