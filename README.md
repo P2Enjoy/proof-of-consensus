@@ -22,7 +22,7 @@ Ceci est un algorithme de consensus utilisé dans le réseau Stellar, dans leque
 ## [Preuve d'autorité (PoA)](proof-of-authority)
 Ceci est un algorithme de consensus similaire à PoS, mais plutôt que de dépendre de l'enjeu d'un nœud, il dépend de l'identité du nœud. Dans les réseaux basés sur PoA, seuls certains nœuds préapprouvés peuvent créer de nouveaux blocs, et l'intégrité de ces nœuds est assurée par une forme quelconque de vérification d'identité.
 
-## Preuve de temps écoulé (PoET)
+## [Preuve de temps écoulé (PoET)](poet)
 Ce système utilise Intel SGX pour l'attestation, c'est un algorithme de consensus distribué qui permet un processus électoral équitable basé sur la loterie.
 
 ## Preuve de poids (PoW)
