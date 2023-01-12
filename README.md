@@ -19,7 +19,7 @@ Ceci est une extension de BFT conçue pour être plus efficace que BFT et peut �
 ## [Accord fédéré byzantin (FBA)](fbft)
 Ceci est un algorithme de consensus utilisé dans le réseau Stellar, dans lequel les validateurs sont organisés en "quorums" qui atteignent un consensus à travers un processus de vote.
 
-## Preuve d'autorité (PoA)
+## [Preuve d'autorité (PoA)](proof-of-authority)
 Ceci est un algorithme de consensus similaire à PoS, mais plutôt que de dépendre de l'enjeu d'un nœud, il dépend de l'identité du nœud. Dans les réseaux basés sur PoA, seuls certains nœuds préapprouvés peuvent créer de nouveaux blocs, et l'intégrité de ces nœuds est assurée par une forme quelconque de vérification d'identité.
 
 ## Preuve de temps écoulé (PoET)
