@@ -25,8 +25,11 @@ Ceci est un algorithme de consensus similaire à PoS, mais plutôt que de dépen
 ## [Preuve de temps écoulé (PoET)](poet)
 Ce système utilise Intel SGX pour l'attestation, c'est un algorithme de consensus distribué qui permet un processus électoral équitable basé sur la loterie.
 
-## Preuve de poids (PoW)
+## [Preuve de poids (PoW)](proof-of-weigth)
 Ceci est un algorithme de consensus basé sur l'espace disque et certaines informations de dispositifs, Il est connu sous le nom de Filecoin et est basé sur IPFS.
 
 # Conclusions
-Ce sont là quelques exemples d'algorithmes de consensus utilisés dans les systèmes distribués. Chacun a ses propres forces et faiblesses et convient mieux à certains cas d'utilisation, c'est pourquoi le choix de l'algorithme à utiliser dépend des exigences spécifiques du système que vous construisez. Il est important de noter que ces algorithmes évoluent constamment, il est donc important de rester informé des dernières tendances et améliorations dans le domaine des algorithmes de consensus.
+Ce sont là quelques exemples d'algorithmes de consensus utilisés dans les systèmes distribués.  
+Chacun a ses propres forces et faiblesses et convient mieux à certains cas d'utilisation, c'est pourquoi le choix de l'algorithme à utiliser dépend des exigences spécifiques du système que vous construisez.  
+
+Il est important de noter que ces algorithmes évoluent constamment, il est donc important de rester informé des dernières tendances et améliorations dans le domaine des algorithmes de consensus.
