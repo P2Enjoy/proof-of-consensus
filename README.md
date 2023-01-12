@@ -13,7 +13,7 @@ Ceci est une variation de PoS dans laquelle un groupe de validateurs élus sont 
 ## [Tolérance aux fautes byzantines (BFT)](bft)
 Ceci est un algorithme de consensus conçu pour être résistant au "problème des généraux byzantins", dans lequel certains membres du réseau peuvent agir de manière malveillante. Dans les systèmes basés sur BFT, chaque nœud doit atteindre un consensus avec un certain nombre d'autres nœuds avant de pouvoir ajouter un bloc à la chaîne.
 
-## Tolérance aux fautes byzantines pratique (PBFT)
+## [Tolérance aux fautes byzantines pratique (PBFT)](pbft)
 Ceci est une extension de BFT conçue pour être plus efficace que BFT et peut être utilisée dans des systèmes à grande échelle.
 
 ## Accord fédéré byzantin (FBA)
